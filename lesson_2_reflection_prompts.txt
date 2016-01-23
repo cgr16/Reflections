@@ -1,20 +1,23 @@
 ﻿What happens when you initialize a repository? Why do you need to do it?
-It adds a .git file in that directory. We do it to enable tracking of our file (git can only commit repository).
+-It adds a .git file in that directory. We do it to enable tracking of our file (git can only commit repository).
 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Staging area is where you cluster files you think should be committed, working directory is where you do your thing, repository eventually contains the staging area.
-You can add or remove file from a staging area before adding them to the repository and commtiting them.
+-Staging area is where you cluster files you think should be committed, working directory is where you do your thing, repository eventually contains the staging area.
+-You can add or remove file from a staging area before adding them to the repository and commtiting them.
 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-When we made a logical change, we should add it to the staging area, then decide whether to commit.
+-When we made a logical change, we should add it to the staging area, then decide whether to commit.
 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+-When creating different versions/languages of a similar program, or creating a trial specimen.
+-Branches allow us to deviate from the original file without affecting it.
+
 
 How do the diagrams help you visualize the branch structure?
 
